@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabila Streams Live</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style_premium.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Nabila <span>Live</span></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Live</a></li>
+        <li><a href="#">Profil</a></li>
+      </ul>
+    </nav>
+  </header>  <main class="hero">
+    <section class="live-card">
+      <div class="live-tag">🔴 LIVE SEKARANG</div>
+      <div class="mux-video">
+        <!-- Ganti PLAYBACK_ID di bawah ini -->
+        <iframe
+          src="https://stream.mux.com/YOUR_PLAYBACK_ID.m3u8"
+          allowfullscreen
+          frameborder="0"
+        ></iframe>
+      </div>
+      <h2 class="live-title">The Queen Of Pretend - Nabila Ahmad</h2>
+      <p class="live-desc">Sedang siaran langsung... klik untuk menonton lebih banyak konser eksklusif!</p>
+      <button class="btn-glow">Gabung Sekarang</button>
+    </section>
+  </main>  <footer>
+    <p>&copy; 2025 Nabila Streams | Powered by Supabase & Mux</p>
+  </footer>
+</body>
+</html>
